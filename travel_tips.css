@@ -59,3 +59,66 @@ a:hover {
 	background: #4D04C4;
 	color: white;
 }
+
+.banner {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+}
+
+.container {
+	width: 950px;
+}
+
+.banner h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	color: white;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.banner p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	opacity: .5;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	margin-bottom: 30px;
+}
+
+.btn-book {
+	text-decoration: none;
+	color: white;
+	padding: 8px 24px;
+	border-radius: 4px;
+	background: #670BFF;
+	transition: background 0.3s ease;
+}
+
+.social-media {
+	color: #ffffff;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 40px;
+}
+
+.social-media li {
+	margin-bottom: 15px;
+}
+
+.social-media li a {
+	color:#ffffff
+}
+
+.social-media li a:hover {
+	color: gray;
+}
+
+.info {
+	display: flex;
+}
