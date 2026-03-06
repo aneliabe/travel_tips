@@ -69,12 +69,12 @@ a:hover {
 }
 
 .container {
-	/* width: 600px; */
+	margin-right: 60px;
 }
 
 .left-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
 }
 
@@ -223,6 +223,13 @@ button:hover {
     gap: 80px;
     width: 100%;
 }
+
+banner-about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* label {
     font-family: Arial, Helvetica, sans-serif;
