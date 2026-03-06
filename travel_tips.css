@@ -65,11 +65,19 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	padding: 150px 0;
+    display: flex;
 }
 
 .container {
-	width: 950px;
+	/* width: 600px; */
 }
+
+.left-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
 
 .banner h1 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -163,3 +171,82 @@ a:hover {
     color: white;
     margin-bottom: 10px;
 }
+
+.contact-container {
+    display: flex;
+  }
+  
+#contactForm {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-right: 80px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #670BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4D04C4;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+/* label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100px;
+    margin: 10px;
+    color: #ffffff;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4db050;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  } */
