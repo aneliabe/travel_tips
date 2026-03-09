@@ -18,9 +18,20 @@
 		</ul>
 	
 		<div class="nav-search">
-			<input type="text" id="conditionInput" placeholder="Enter a destination or keyword">
-			<button id="btnSearch">Search</button>
-		</div>
+
+			<input 
+				type="text" 
+				id="keywordInput" 
+				placeholder="Enter a destination or keyword"
+			>
+		
+			<button id="btnSearch" class="icon-btn">
+				<i class="fa-solid fa-search"></i>
+			</button>
+			
+			<button id="clearBtn" onclick="clearSearch()">Clear</button>
+			
+		</div>                       
   </nav>
 
 	<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./images/banner.jpeg');">
@@ -53,6 +64,10 @@
             </div>
         </div>
 	</div>
+    <div class="keywordSearch">
+        <div id="result"></div>
+    </div>
+    </div>
   <script src="./travel_tips.js"></script>
 </body>
 </html>
